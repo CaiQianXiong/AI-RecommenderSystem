@@ -11,8 +11,8 @@ from sklearn.preprocessing import MinMaxScaler, StandardScaler
 
 import tensorflow as tf
 from sklearn.preprocessing import LabelEncoder
-from tensorflow.python.keras.preprocessing.sequence import pad_sequences
-from tensorflow.python.keras.models import Model
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.models import Model
 
 from deepctr.feature_column import SparseFeat, VarLenSparseFeat, DenseFeat
 from deepmatch.models import *
